@@ -1,0 +1,6 @@
+Completed the first part of the requirement where the rating page is displayed.
+Points to change on next iteration : 
+1. Need to redirect to the rating submitted page after clicking on submit button.
+2. Need to store and pass the rating message if any to the next page.
+Points to be noted : 
+1. If "li" is used for the rating then :active won't work. Either to change "li" to "a" or descope the active state as part of functinality limitations.
