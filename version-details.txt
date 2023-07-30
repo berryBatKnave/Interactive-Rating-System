@@ -1,6 +1,17 @@
+Interactive Rating System v0.1
+
 Completed the first part of the requirement where the rating page is displayed.
 Points to change on next iteration : 
 1. Need to redirect to the rating submitted page after clicking on submit button.
 2. Need to store and pass the rating message if any to the next page.
 Points to be noted : 
 1. If "li" is used for the rating then :active won't work. Either to change "li" to "a" or descope the active state as part of functinality limitations.
+
+
+Interactive Rating System v0.2
+
+Solved the issue of focusing the "li" items with the "tabIndex=0" on list item.It is used with on input tags where you want to add focus attribute to.
+
+Next Steps : 
+1. Need to make a thank you page for the feedback.
+2. Need to pass the data inputed to the HTML back to the thank you page with the help of javascript.
