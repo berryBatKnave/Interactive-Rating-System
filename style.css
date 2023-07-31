@@ -18,6 +18,7 @@ body{
     width : 400px;
     padding:25px;
     border-radius: 1.5rem;
+    /* visibility: hidden; */
 }
 
 .rating-description img{
@@ -51,7 +52,7 @@ body{
     padding : 10px;
 }
 
-.rating-elements li {
+.rating-elements li button{
     background-color: hsl(218, 16%, 34%);
     color: hsl(217, 12%, 63%);
     width : 55px;
@@ -62,9 +63,10 @@ body{
     align-items: center;
     cursor: pointer;
     padding-top:0.5px;
+    border:0;
 }
 
-.rating-elements li:hover {
+.rating-elements li button:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     width : 55px;
@@ -90,7 +92,7 @@ textarea {
     resize: none;
   }
 
-.button {
+.submit-button {
   align-items: center;
   background-clip: padding-box;
   background-color: hsl(25, 97%, 53%);
@@ -117,26 +119,70 @@ textarea {
   width : 100%;
 }
 
-.button:hover,
-.button:focus {
+.submit-button:hover,
+.submit-button:focus {
   background-color: hsl(25, 97%, 53%); 
   /* box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px; */
 }
 
-.button:hover {
+.submit-button:hover {
   transform: translateY(-1px);
 }
 
-.button:active {
+.submit-button:active {
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
 }
 
-.rating-elements li:focus{
+.rating-elements li button:target{
   background-color: hsl(25, 97%, 53%);
   color : hsl(0, 0%, 100%);
 }
+
+#thank-you-component{
+    /* background-color: hsl(213, 19%, 18%); */
+    background-image: linear-gradient(hsl(217, 32%, 21%),hsl(214, 11%, 13%));
+    width : 350px;
+    padding:25px;
+    border-radius: 1.5rem;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+}
+
+#thank-you-component img{
+  margin: 30px 0 20px 0; 
+}
+
+#thank-you-component h1{
+  color: white;
+}
+
+/* .feedback{
+  background-color: hsl(213, 19%, 18%);
+  color : hsl(25, 97%, 53%);
+  width: fit-content;
+} */
+
+.feedback{
+  /* background-color: white; */
+  background-color: hsl(213, 19%, 18%);
+  color : hsl(25, 97%, 53%);
+  width: fit-content;
+  margin : auto;
+  padding: 5px 15px;
+  border-radius: 1.5rem;
+}
+
+.thank-you-message{
+  color: hsl(217, 12%, 63%);
+}
+
+
+
+
+
 
 
 

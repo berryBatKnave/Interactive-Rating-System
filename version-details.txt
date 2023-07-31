@@ -15,3 +15,13 @@ Solved the issue of focusing the "li" items with the "tabIndex=0" on list item.I
 Next Steps : 
 1. Need to make a thank you page for the feedback.
 2. Need to pass the data inputed to the HTML back to the thank you page with the help of javascript.
+
+Interactive Rating System v1.0
+
+There was bug in the code for "tabIndex = 0".tabIndex only letting us to focus the "li" element but if we click out of the menu then the focus on the "li" is going away. Changed the functionality of the "li" with "tabIndex" to a "button" under the "li" tag.
+
+<li class="rating-1"><button>1</button></li>
+
+Basic functionality of the website is completed. Passed the value by editing the document and made the thank-you page under the same index.js with visiblity as "hidden".
+
+********Release the Website as the basic functionality is covered.********
